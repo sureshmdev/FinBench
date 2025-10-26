@@ -1,0 +1,9 @@
+[
+  { "name": "Alice", "age": 23, "country": "USA" },
+  { "name": "Bob", "age": 37, "country": "India" },
+  { "name": "Charlie", "age": 15, "country": "USA" },
+  { "name": "David", "age": 45, "country": "UK" },
+  { "name": "Eva", "age": 60, "country": "India" },
+  { "name": "Frank", "age": 29, "country": "USA" },
+  { "name": "Grace", "age": 52, "country": "UK" }
+]
