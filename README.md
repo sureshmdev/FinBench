@@ -11,28 +11,44 @@ FinBench is an interactive web app that benchmarks bank users based on the Bank 
 
 ### Setup
 
-1. Install dependencies:
+1. Clone the repository
+
+   ```bash
+   git clone https://github.com/yourusername/FinBench.git
+   cd FinBench
+   ```
+
+2. Create a virtual environment
+
+   ```bash
+   Windows:
+   python -m venv venv
+   .\venv\Scripts\activate
+
+   macOS / Linux:
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+3. Install dependencies:
 
    ```bash
    pip install -r requirements.txt
-
    ```
 
-2. Create a .env file with:
+4. Create a .env file with:
 
    ```bash
    MONGODB_CONNECTION_URL=your_mongodb_connection_url
-
    ```
 
-3. Load dataset into MongoDB:
+5. Load dataset into MongoDB:
 
    ```bash
    python load_bank_data.py
-
    ```
 
-4. Run the app:
+6. Run the app:
    ```bash
    streamlit run app.py
    ```
