@@ -20,12 +20,16 @@ FinBench is an interactive web app that benchmarks bank users based on the Bank 
 
 2. Create a virtual environment
 
-   ```bash
    Windows:
+
+   ```bash
    python -m venv venv
    .\venv\Scripts\activate
+   ```
 
    macOS / Linux:
+
+   ```bash
    python3 -m venv venv
    source venv/bin/activate
    ```
